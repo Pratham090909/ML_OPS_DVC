@@ -19,7 +19,7 @@
 
 9. Now - "dvc commit" and then "dvc push" (bcoz dvc hamara data track toh krrha hai but abhi tak usne s3 main daala nahi hai.)
 
-10. Do a git add-commit-push to mark this stage as first version of data.
+10. Do a git add-commit-push to mark this stage as first version of data. (kabhi bhi hamein wapis iss version pe roll back krna padha toh yahi krenge.)
 
 11. Now make changes to mycode.py to append a new row in data, check changes via "dvc status"
 
