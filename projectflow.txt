@@ -30,3 +30,8 @@
 14. Check dvc/git status, everything should be upto date.
 
 15. Now repeat step 10-12 for v3 of data.
+
+16. Now for roll back concept we will use these :
+   git log --online (for the sha id)
+   git checkout <hash> (for rolling back to the previous version) / git checkout master (for rollink back to the current up to dated version)
+   dvc pull
